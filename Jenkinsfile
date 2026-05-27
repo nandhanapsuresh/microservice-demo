@@ -5,6 +5,8 @@ environment {
     APP_NAME = 'microservice-app'
     DEPLOY_GROUP = 'microservice-deploy-group'
     AWS_REGION = 'ap-south-2'
+    AWS_ACCESS_KEY_ID = credentials('aws-access-key')
+    AWS_SECRET_ACCESS_KEY = credentials('aws-secret-key')
 }
 
 stages {
