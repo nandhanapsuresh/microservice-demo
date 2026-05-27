@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         S3_BUCKET  = 'jenkins-codedeploy-artifacts-nandhana'
-        APP_NAME   = 'microservice-app'
-        DEPLOY_GROUP = 'microservice-deploy-group'
+        APP_NAME   = 'microservice-app-nandhana'
+        DEPLOY_GROUP = 'nandhana-microservice-deploy-group'
         AWS_REGION = 'ap-south-2'
     }
 
